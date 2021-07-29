@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hospital-appointment-app/static/css/main.f653b3ff.chunk.css",
+    "main.js": "/hospital-appointment-app/static/js/main.9a869de1.chunk.js",
+    "main.js.map": "/hospital-appointment-app/static/js/main.9a869de1.chunk.js.map",
+    "runtime-main.js": "/hospital-appointment-app/static/js/runtime-main.8ffaa854.js",
+    "runtime-main.js.map": "/hospital-appointment-app/static/js/runtime-main.8ffaa854.js.map",
+    "static/js/2.041da81a.chunk.js": "/hospital-appointment-app/static/js/2.041da81a.chunk.js",
+    "static/js/2.041da81a.chunk.js.map": "/hospital-appointment-app/static/js/2.041da81a.chunk.js.map",
+    "static/js/3.3d199977.chunk.js": "/hospital-appointment-app/static/js/3.3d199977.chunk.js",
+    "static/js/3.3d199977.chunk.js.map": "/hospital-appointment-app/static/js/3.3d199977.chunk.js.map",
+    "index.html": "/hospital-appointment-app/index.html",
+    "static/css/main.f653b3ff.chunk.css.map": "/hospital-appointment-app/static/css/main.f653b3ff.chunk.css.map",
+    "static/js/2.041da81a.chunk.js.LICENSE.txt": "/hospital-appointment-app/static/js/2.041da81a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ffaa854.js",
+    "static/js/2.041da81a.chunk.js",
+    "static/css/main.f653b3ff.chunk.css",
+    "static/js/main.9a869de1.chunk.js"
+  ]
+}
