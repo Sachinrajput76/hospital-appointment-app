@@ -1,0 +1,131 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+.popUpWindowBackground {
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.popUpWindow {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 40px 40px;
+  border: 1px solid #888;
+  width: 40%;
+  position: relative;
+}
+.popUpWindow .close {
+  position: absolute;
+  right: 16px;
+  top: 12px;
+  cursor: pointer;
+}
+.inputData {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.inputData div {
+  width: 30%;
+  margin-bottom: 14px;
+}
+.inputData div input {
+  width: 90%;
+  margin: 0 auto;
+  border: none;
+  border-bottom: 4px solid #2e5061;
+  padding-bottom: 8px;
+  font-weight: 700;
+}
+.inputData div input:focus-visible {
+  outline: none;
+}
+.inputData div label {
+  color: #2e5061;
+  font-weight: 500;
+  font-size: 14px;
+}
+.patientDetails {
+  width: 100%;
+}
+.patientDetails textarea {
+  width: 95%;
+  border: 2px solid #2e5061;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+.patientDetails textarea:focus-visible {
+  outline: none;
+}
+.File {
+  width: 58%;
+  border: 2px solid #2e5061;
+  height: 100px;
+  position: relative;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-radius: 4px;
+}
+.fileSection {
+  display: flex;
+  margin-top: 16px;
+  justify-content: flex-start;
+}
+.fileSection div:nth-child(2) {
+  padding-left: 10px;
+}
+.fileSection div:nth-child(2) form {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.fileSection div:nth-child(2) form input[type='file'],
+#files {
+  display: none;
+}
+
+.fileSection div:nth-child(2) form label,
+.uploadButton {
+  content: 'Choose files';
+  display: inline-block;
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 16px 74px;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0 auto;
+  background: #2e5061;
+  color: white;
+  font-size: 14px;
+}
+.fileSection div:nth-child(2) form button,
+.submitButton {
+  border: none;
+  padding: 16px 0px;
+  cursor: pointer;
+  margin-top: 14px;
+  font-weight: bold;
+}
+.submitButton {
+  width: 200px;
+}
+.fileName {
+  top: 4px;
+  display: flex;
+  padding-left: 6px;
+  width: 88%;
+}
+.fileName strong {
+  margin-right: 8px;
+  margin-top: 4px;
+}

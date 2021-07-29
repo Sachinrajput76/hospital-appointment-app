@@ -1,0 +1,46 @@
+.Card {
+  width: 92%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  padding: 4px 20px;
+  box-shadow: 1px 2px 4px #00000030;
+  cursor: pointer;
+}
+.Card h1,
+p {
+  width: 100%;
+  margin: 4px auto;
+}
+.Card h1 {
+  font-size: 22px;
+}
+.Card p:nth-child(2) {
+  font-weight: 500;
+}
+
+.doctorDetails {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.doctorDetails div {
+  display: flex;
+}
+.doctorDetails div span:nth-child(1) {
+  margin-top: 16px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #4f839d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.doctorDetails div span i {
+  color: white;
+}
+.doctorDetails div h4 {
+  margin-left: 20px;
+}
